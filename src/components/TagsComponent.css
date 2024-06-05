@@ -1,0 +1,17 @@
+.tags-container {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.tag {
+  background-color: #deedd5;
+  color: #333;
+  padding: 5px 15px;
+  margin-right: 10px;
+  border-radius: 15px;
+  font-size: 14px;
+  cursor: pointer;
+}
