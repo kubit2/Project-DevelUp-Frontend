@@ -1,0 +1,35 @@
+.post-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.post-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin: 10px;
+  order: 2;
+}
+
+.post-content {
+  padding: 10px;
+  flex-grow: 1;
+  order: 1;
+}
+
+.post-title {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.post-description {
+  font-size: 14px;
+  color: #666;
+}
