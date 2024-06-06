@@ -31,6 +31,16 @@ function App() {
         content="Why data scientists should prioritize communication and flexibility in agile projects"
         imageUrl={image}
       />
+      <PostCard
+        title="High-Level System Architecture of Booking.com"
+        content="Why data scientists should prioritize communication and flexibility in agile projects"
+        imageUrl={image}
+      />
+      <PostCard
+        title="High-Level System Architecture of Booking.com"
+        content="Why data scientists should prioritize communication and flexibility in agile projects"
+        imageUrl={image}
+      />
       <MainPage />
     </div>
   );

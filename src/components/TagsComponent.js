@@ -9,7 +9,12 @@ function TagsComponent() {
       <span className="tag">#DevOps</span>
       <span className="tag">#JavaScript</span>
       <span className="tag">#React</span>
-      <span className="tag">#Node</span>
+      <span className="tag">#Node.js</span>
+      <span className="tag">#Docker</span>
+      <span className="tag">#MySQL</span>
+      <span className="tag">#TypeScript</span>
+      <span className="tag">#Nginx</span>
+      <span className="tag">#HTTP</span>
     </div>
   );
 }
