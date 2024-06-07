@@ -1,0 +1,63 @@
+.editor-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.editor-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 140%;
+}
+
+.back-button,
+.save-button {
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  flex: 1;
+}
+
+.editor-header .back-button img,
+.editor-header .save-button img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+
+.header-logo {
+  width: 30px;
+  height: 30px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3px;
+}
+
+.title-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #eeeeee;
+  box-sizing: border-box;
+}
+
+.content-textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff9e5;
+  min-height: 500px;
+  resize: none;
+  box-sizing: border-box;
+  overflow: auto;
+}
